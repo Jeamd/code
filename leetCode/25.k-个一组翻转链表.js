@@ -13,22 +13,6 @@
  * }
  */
 
-// 反转链表（a,b]
-const reverse = (a, b) => {
-  let pre = null,
-    cur = a,
-    next = null;
-
-  while (cur !== b) {
-    next = cur.next;
-    cur.next = pre;
-    pre = cur;
-    cur = next;
-  }
-
-  return pre;
-};
-
 /**
  * @param {ListNode} head
  * @param {number} k
@@ -38,17 +22,30 @@ var reverseKGroup = function (head, k) {
   let a, b;
   a = b = head;
 
-  for (let i = 0; i < k; i++) {
-    if (b === null) {
-      return head;
+  function reverse(a, b) {
+    let pre, cur, next;
+    cur = a;
+
+    while (cur !== b) {
+      next = cur.next;
+      cur.next = pre;
+      pre = cur;
+      cur = next;
     }
+
+    return pre;
+  }
+
+  for (let i = 0; i < k; i++) {
+    if (!b) return head;
+
     b = b.next;
   }
 
-  const newHead = reverse(a, b);
+  const newHeader = reverse(a, b);
   a.next = reverseKGroup(b, k);
 
-  return newHead;
+  return newHeader;
 };
 
 // @lc code=end
