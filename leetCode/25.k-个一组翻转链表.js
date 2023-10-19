@@ -19,10 +19,7 @@
  * @return {ListNode}
  */
 var reverseKGroup = function (head, k) {
-  let a, b;
-  a = b = head;
-
-  function reverse(a, b) {
+  const reverse = (a, b) => {
     let pre, cur, next;
     cur = a;
 
@@ -34,18 +31,20 @@ var reverseKGroup = function (head, k) {
     }
 
     return pre;
-  }
+  };
+
+  let a, b;
+  a = b = head;
 
   for (let i = 0; i < k; i++) {
     if (!b) return head;
-
     b = b.next;
   }
 
-  const newHeader = reverse(a, b);
+  const newHead = reverse(a, b);
   a.next = reverseKGroup(b, k);
 
-  return newHeader;
+  return newHead;
 };
 
 // @lc code=end
