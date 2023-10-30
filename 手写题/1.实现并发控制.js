@@ -17,7 +17,7 @@ function limitFun(asyncFunArr, maxNum) {
     runTask(asyncFun);
   }
 
-  let initCount = 1;
+  let initCount = 0;
   while (initCount < maxNum) {
     initCount++;
     runNextTask();
@@ -27,6 +27,7 @@ function limitFun(asyncFunArr, maxNum) {
 // 示例任务函数
 function asyncTask(id, delay) {
   return new Promise((resolve) => {
+    console.log(id + "任务正在执行");
     setTimeout(() => {
       console.log(`Task ${id} completed`);
       resolve();
