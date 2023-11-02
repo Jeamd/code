@@ -3,24 +3,26 @@
 
 // 节流
 function fun(callBack, n) {
-  let timer = null;
-
+  let timeId = null;
   return function (...arg) {
-    const nowtimer = new Date().getTime();
-    if (!timer || nowtimer - timer > n) {
-      timer = nowtimer;
-      callBack.apply(this, arg);
+    const nowTime = new Date().getTime();
+    if (!timeId || nowTime - timeId > n) {
+      timeId = new Date().getTime();
+      callBack.call(this, ...arg);
     }
   };
 }
 
 // 防抖
 function fun2(callBack, n) {
-  let timer = null;
+  let timeId = null;
+
   return function (...arg) {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      callBack.call(this, ...arg);
+    if (timeId) {
+      clearTimeout(timeId);
+    }
+    timeId = setTimeout(() => {
+      callBack.apply(this, arg);
     }, n);
   };
 }
