@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #aaa {
+            word-wrap: break-word; /* 设置为 break-word 表示允许单词中断换行 */
+            width: 300px; /* 设置容器的宽度 */
+            border: 1px solid #ccc; /* 添加边框，方便观察 */
+            padding: 10px; /* 添加内边距，增加可读性 */
+        }
+    </style>
+</head>
+<body>
+    <div id="aaa"></div>
+    <script>
+        var dom = document.getElementById('aaa')
+        dom.innerHTML = 'hi嘿嘿'
+        let count = 0
+
+        const innerPromise = () => {
+            return new Promise((reslove)=>{
+                // 这个setTimeout就是接口onMessage
+                setTimeout(()=>{
+                    dom.innerHTML += count
+                    reslove()
+                },100)
+
+            })
+        }
+        const inner =  async() => {
+            await innerPromise()
+            
+            count ++
+            if(count < 100) {
+                inner()
+            }
+        }
+
+        inner()
+        
+    </script>
+</body>
+</html>

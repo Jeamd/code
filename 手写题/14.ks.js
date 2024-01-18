@@ -128,3 +128,39 @@ function fun(arr) {
 }
 
 console.log(fun(arr));
+
+const data = [
+  {
+    imgUrl:
+      "https://kcdn.staging.kuaishou.com/kos/nlav100210/1002_2195030440_DESVDD.jpg",
+    desc: "123456789",
+  },
+  {
+    imgUrl:
+      "https://kcdn.staging.kuaishou.com/kos/nlav100210/1002_2195030440_maT82P.jpg",
+    desc: "",
+  },
+  {
+    imgUrl: "https://www.baidu.com",
+    desc: "11222222",
+  },
+  {
+    imgUrl: "",
+    desc: "567890",
+  },
+];
+
+const checkType = (sourceData) => {
+  const { imgUrl, desc } = sourceData || {};
+  const imgObj = { imgUrl, desc: "", dataType: 1 },
+    descObj = { imgUrl: "", desc, dataType: 2 };
+
+  return [].concat(imgUrl ? imgObj : []).concat(desc ? descObj : []);
+};
+
+const data2 = data.reduce((pre, cur) => {
+  const curAndTypeArr = checkType(cur);
+  return [...pre, ...curAndTypeArr];
+}, []);
+
+console.log(data2);

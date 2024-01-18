@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>摄像头拍照上传示例</title>
+</head>
+<body>
+  <input type="file" accept="image/*"  id="fileInput">
+  <button onclick="uploadPhoto()">上传照片</button>
+  <div id="imagePreview"></div>
+
+  <script>
+    function uploadPhoto() {
+      const fileInput = document.getElementById('fileInput');
+      const imagePreview = document.getElementById('imagePreview');
+
+      const file = fileInput.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const img = new Image();
+          img.src = e.target.result;
+          img.style.maxWidth = '100%';
+          imagePreview.innerHTML = '';
+          imagePreview.appendChild(img);
+          // 这里可以将图片上传到服务器
+          // 例如使用 fetch 或 XMLHttpRequest 发送到服务器
+        }
+        reader.readAsDataURL(file);
+      }
+    }
+  </script>
+</body>
+</html>

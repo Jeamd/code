@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Exam Camera, Microphone, and Volume Control</title>
+  </head>
+  <body>
+    <h1>Web Exam Camera, Microphone, and Volume Control</h1>
+
+    <div id="cameraCheck">
+      <h2>Camera Check</h2>
+      <video id="cameraVideo" autoplay playsinline></video>
+      <p id="cameraStatus"></p>
+    </div>
+
+    <div id="microphoneCheck">
+      <h2>Microphone Check</h2>
+      <p id="microphoneStatus"></p>
+      <label for="microphoneSelect">Microphone:</label>
+      <select id="microphoneSelect" onchange="selectMicrophone()">
+        <option value="">Select a microphone</option>
+      </select>
+      <meter id="microphoneMeter" min="0" max="1" value="0"></meter>
+      <input
+        type="range"
+        id="volumeSlider"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+        oninput="setVolume()"
+      />
+    </div>
+
+    <script>
+      let microphoneStream;
+      let microphoneSource;
+      let microphoneAnalyser;
+      let volumeGain;
+
+      // 检查摄像头可用性
+      navigator.mediaDevices.getUserMedia({ video: true })
+        .then((stream) => {
+          const cameraVideo = document.getElementById('cameraVideo');
+          cameraVideo.srcObject = stream;
+
+          const cameraStatus = document.getElementById('cameraStatus');
+          cameraStatus.textContent = 'Camera is available';
+        })
+        .catch((error) => {
+          const cameraStatus = document.getElementById('cameraStatus');
+          cameraStatus.textContent = 'Camera is not available: ' + error.message;
+        });
+
+      // 检查麦克风可用性并列出设备
+      navigator.mediaDevices.getUserMedia({ audio: true })
+        .then((stream) => {
+          microphoneStream = stream;
+          const microphoneStatus = document.getElementById('microphoneStatus');
+          microphoneStatus.textContent = 'Microphone is available';
+
+          navigator.mediaDevices.enumerateDevices()
+            .then((devices) => {
+              const microphoneSelect = document.getElementById('microphoneSelect');
+              microphoneSelect.innerHTML = '<option value="">Select a microphone</option>';
+
+              devices.forEach((device) => {
+                if (device.kind === 'audioinput') {
+                  const option = document.createElement('option');
+                  option.value = device.deviceId;
+                  option.text = device.label || 'Microphone ' + (microphoneSelect.length + 1);
+                  microphoneSelect.appendChild(option);
+                }
+              });
+            })
+            .catch((error) => {
+              console.log('Error listing devices:', error);
+            });
+
+          // 创建音频上下文和相关节点
+          const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+          microphoneSource = audioContext.createMediaStreamSource(microphoneStream);
+          microphoneAnalyser = audioContext.createAnalyser();
+          volumeGain = audioContext.createGain();
+
+          // 连接音频节点
+          microphoneSource.connect(microphoneAnalyser);
+          microphoneSource.connect(volumeGain);
+          volumeGain.connect(audioContext.destination);
+
+          // 更新麦克风输入级别和音量
+          updateMicrophoneLevel();
+          setVolume();
+        })
+        .catch((error) => {
+          const microphoneStatus = document.getElementById('microphoneStatus');
+          microphoneStatus.textContent = 'Microphone is not available: ' + error.message;
+        });
+
+      // 更新麦克风输入级别
+      function updateMicrophoneLevel() {
+        requestAnimationFrame(updateMicrophoneLevel);
+
+        const microphoneMeter = document.getElementById('microphoneMeter');
+        const dataArray = new Uint8Array(microphoneAnalyser.frequencyBinCount);
+        microphoneAnalyser.getByteTimeDomainData(dataArray);
+
+        let sum = 0;
+        for (let i = 0; i < dataArray.length; i++) {
+          sum += Math.abs(dataArray[i] - 128);
+        }
+
+        const average = sum / dataArray.length;
+        const level = average / 128;
+        microphoneMeter.value = level.toFixed(2);
+      }
+
+      // 选择麦克风设备
+      function selectMicrophone() {
+        const microphoneSelect = document.getElementById('microphoneSelect');
+        const selectedMicrophoneId = microphoneSelect.value;
+        
+        //抱歉，由于文本长度限制，我无法在单个回复中提供完整的修改后的代码。下面是修改后的代码的继续部分：
+
+        // 停止当前的麦克风流
+        if (microphoneStream) {
+          microphoneStream.getTracks().forEach((track) => {
+            track.stop();
+          });
+        }
+
+        // 请求访问所选麦克风设备
+        navigator.mediaDevices.getUserMedia({ audio: { deviceId: selectedMicrophoneId } })
+          .then((stream) => {
+            microphoneStream = stream;
+
+            // 创建音频上下文和相关节点
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            microphoneSource = audioContext.createMediaStreamSource(microphoneStream);
+            microphoneAnalyser = audioContext.createAnalyser();
+            volumeGain = audioContext.createGain();
+
+            // 连接音频节点
+            microphoneSource.connect(microphoneAnalyser);
+            microphoneSource.connect(volumeGain);
+            volumeGain.connect(audioContext.destination);
+
+            // 更新麦克风输入级别和音量
+            updateMicrophoneLevel();
+            setVolume();
+          })
+          .catch((error) => {
+            console.log('Error selecting microphone:', error);
+          });
+      }
+
+      // 设置音量
+      function setVolume() {
+        const volumeSlider = document.getElementById('volumeSlider');
+        const volume = volumeSlider.value;
+        volumeGain.gain.value = volume;
+      }
+    </script>
+  </body>
+</html>

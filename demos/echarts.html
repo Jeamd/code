@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pie Chart</title>
+  <!-- 引入echarts库 -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.2.2/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div id="pieChart" style="width: 600px; height: 400px;"></div>
+  <script>
+    // 初始化echarts实例
+    var chartDom = document.getElementById('pieChart');
+    var myChart = echarts.init(chartDom);
+
+    // 配置图表数据
+    var option = {
+      title: {
+        text: '签到人数与总人数比例',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b} : {c} ({d}%)'
+      },
+      series: [
+        {
+          name: '签到情况',
+          type: 'pie',
+          radius: '50%',
+          center: ['50%', '50%'],
+          data: [
+            {value: 80, name: '已签到'}, // 替换80为实际签到人数
+            {value: 20, name: '未签到'}  // 替换20为实际未签到人数
+          ],
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+          }
+        }
+      ]
+    };
+
+    // 使用配置项显示图表
+    myChart.setOption(option);
+  </script>
+</body>
+</html>

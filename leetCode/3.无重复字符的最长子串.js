@@ -10,27 +10,48 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function (s) {
-  const windowSet = new Set();
+  // const windowSet = new Set();
 
-  let rk = 0,
-    lk = 0;
+  // let rk = 0,
+  //   lk = 0;
 
+  // let maxLen = 0;
+
+  // while (rk < s.length) {
+  //   const str = s[rk];
+  //   if (windowSet.has(str)) {
+  //     maxLen = Math.max(maxLen, windowSet.size);
+  //     while (lk < rk && windowSet.has(str)) {
+  //       const lStr = s[lk];
+  //       windowSet.delete(lStr);
+  //       lk++;
+  //     }
+  //   }
+  //   windowSet.add(str);
+  //   rk++;
+  // }
+
+  // return Math.max(maxLen, windowSet.size);
+
+  const mapSet = new Set();
+  let i = 0;
+  let res = "";
   let maxLen = 0;
 
-  while (rk < s.length) {
-    const str = s[rk];
-    if (windowSet.has(str)) {
-      maxLen = Math.max(maxLen, windowSet.size);
-      while (lk < rk && windowSet.has(str)) {
-        const lStr = s[lk];
-        windowSet.delete(lStr);
-        lk++;
-      }
+  while (i < s.length) {
+    if (!mapSet.has(s[i])) {
+      res = res + s[i];
+      mapSet.add(s[i]);
+      i++;
+    } else {
+      const tempStr = res[0];
+      res = res.slice(1);
+      mapSet.delete(tempStr);
     }
-    windowSet.add(str);
-    rk++;
+
+    maxLen = Math.max(res.length, maxLen);
   }
 
-  return Math.max(maxLen, windowSet.size);
+  return maxLen;
 };
 // @lc code=end

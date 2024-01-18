@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Camera Selection</title>
+  </head>
+  <body>
+    <h1>Web Camera Selection</h1>
+
+    <div id="cameraCheck">
+      <h2>Camera Check</h2>
+      <video id="cameraVideo" autoplay playsinline></video>
+      <p id="cameraStatus"></p>
+      <label for="cameraSelect">Camera:</label>
+      <select id="cameraSelect" onchange="selectCamera()">
+        <option value="">Select a camera</option>
+      </select>
+    </div>
+
+    <script>
+      let cameraStream;
+
+      // 检查摄像头可用性并列出设备
+      navigator.mediaDevices.getUserMedia({ video: true })
+        .then((stream) => {
+          cameraStream = stream;
+          const cameraVideo = document.getElementById('cameraVideo');
+          cameraVideo.srcObject = stream;
+
+          const cameraStatus = document.getElementById('cameraStatus');
+          cameraStatus.textContent = 'Camera is available';
+
+          navigator.mediaDevices.enumerateDevices()
+            .then((devices) => {
+              const cameraSelect = document.getElementById('cameraSelect');
+              cameraSelect.innerHTML = '<option value="">Select a camera</option>';
+
+              devices.forEach((device) => {
+                if (device.kind === 'videoinput') {
+                  const option = document.createElement('option');
+                  option.value = device.deviceId;
+                  option.text = device.label || 'Camera ' + (cameraSelect.length + 1);
+                  cameraSelect.appendChild(option);
+                }
+              });
+            })
+            .catch((error) => {
+              console.log('Error listing devices:', error);
+            });
+        })
+        .catch((error) => {
+          const cameraStatus = document.getElementById('cameraStatus');
+          cameraStatus.textContent = 'Camera is not available: ' + error.message;
+        });
+
+      // 选择摄像头设备
+      function selectCamera() {
+        const cameraSelect = document.getElementById('cameraSelect');
+        const selectedCameraId = cameraSelect.value;
+
+        // 停止当前的摄像头流
+        if (cameraStream) {
+          cameraStream.getTracks().forEach((track) => {
+            track.stop();
+          });
+        }
+
+        // 请求访问所选摄像头设备
+        navigator.mediaDevices.getUserMedia({ video: { deviceId: selectedCameraId } })
+          .then((stream) => {
+            cameraStream = stream;
+            const cameraVideo = document.getElementById('cameraVideo');
+            cameraVideo.srcObject = stream;
+          })
+          .catch((error) => {
+            console.log('Error selecting camera:', error);
+          });
+      }
+    </script>
+  </body>
+</html>
