@@ -289,3 +289,30 @@ function Counter() {
 const element = <Counter />;
 const container = document.getElementById("root");
 Didact.render(element, container);
+
+
+// const func = useCallback(() => {
+//   const itemDetailAttr = JSON.parse(itemDetail?.itemAttr || "{}");
+//   if (!Object.keys(itemDetailAttr)?.length) return
+  
+//   const formValues = form.getState().values || {};
+//   // 复制的时候只有第一次进入的时候才需要更新客服电话的默认值
+//   if (isCopy && !copyFirstSetTelInfo && !formValues.itemCustomerServiceTel) {
+//       form.setValues({
+//           itemCustomerServiceTel: itemDetailAttr?.itemCustomerServiceTel || '',
+//       });
+//       setCopyFirstSetTelInfo(true)
+//   }
+// },[schema])
+
+// useEffect(()=>{
+//   // 编辑页面的时候，不需要更新客服电话的默认值，直接用上次保存的客服电话，只有新增和复制需要更新成最新的客服电话默认值
+//   if (isOnlyEdit || !schema) return;
+//   const formValues = form.getState().values || {};
+//   !formValues.itemCustomerServiceTel && form.setValues({
+//       itemCustomerServiceTel: schema?.properties?.itemCustomerServiceTel?.default || '',
+//   });
+
+//   // ssss
+//   func()
+// }, [schema]);
