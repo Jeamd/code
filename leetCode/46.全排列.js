@@ -11,20 +11,33 @@
  */
 
 var permute = function (nums) {
-  let resArr = [];
+  // let resArr = [];
+  // function dfs(path = []) {
+  //   if (path.length === nums.length) {
+  //     resArr.push(path);
+  //     return;
+  //   }
+  //   for (const item of nums) {
+  //     if (!path.includes(item)) {
+  //       dfs([...path, item]);
+  //     }
+  //   }
+  // }
+  // dfs([]);
+  // return resArr;
 
-  function dfs(path = []) {
+  const resArr = [];
+  const dfs = (path = []) => {
     if (path.length === nums.length) {
-      resArr.push(path);
+      resArr.push([...path]);
       return;
     }
 
     for (const item of nums) {
-      if (!path.includes(item)) {
-        dfs([...path, item]);
-      }
+      if (path.includes(item)) continue;
+      dfs([...path, item]);
     }
-  }
+  };
 
   dfs([]);
   return resArr;
