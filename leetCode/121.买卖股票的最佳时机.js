@@ -17,20 +17,29 @@
  * @return {number}
  */
 var maxProfit = function (prices) {
-  const dp = new Array(prices.length).fill(false).map(() => []);
+  // const dp = new Array(prices.length).fill(false).map(() => []);
 
-  for (let i = 0; i < prices.length; i++) {
-    if (i === 0) {
-      dp[i][0] = -prices[i];
-      dp[i][1] = 0;
-      continue;
-    }
+  // for (let i = 0; i < prices.length; i++) {
+  //   if (i === 0) {
+  //     dp[i][0] = -prices[i];
+  //     dp[i][1] = 0;
+  //     continue;
+  //   }
 
-    dp[i][0] = Math.max(dp[i - 1][0], -prices[i]);
-    dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+  //   dp[i][0] = Math.max(dp[i - 1][0], -prices[i]);
+  //   dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+  // }
+
+  // return dp[prices.length - 1][1];
+
+  let maxPrice = 0,
+    res = 0;
+
+  for (let i = prices.length - 1; i >= 0; i--) {
+    res = Math.max(maxPrice - prices[i], res);
+    maxPrice = Math.max(prices[i], maxPrice);
   }
 
-  console.log(dp);
-  return dp[prices.length - 1][1];
+  return res;
 };
 // @lc code=end

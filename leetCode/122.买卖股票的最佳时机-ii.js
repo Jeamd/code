@@ -11,18 +11,19 @@
  */
 var maxProfit = function (prices) {
   let dp = new Array(prices.length).fill(false).map(() => []);
-
   for (let i = 0; i < prices.length; i++) {
     if (i === 0) {
+      // 第一天不持有
       dp[i][0] = 0;
+      // 第一天持有
       dp[i][1] = -prices[i];
       continue;
     }
-
+    // 第i天不持有
     dp[i][0] = Math.max(dp[i - 1][1] + prices[i], dp[i - 1][0]);
+    // 第i天持有
     dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
   }
-
   return dp[prices.length - 1][0];
 };
 // @lc code=end
