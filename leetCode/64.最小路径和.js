@@ -20,11 +20,15 @@ var minPathSum = function (grid) {
   const dp = [];
   for (let i = 0; i < grid.length; i++) {
     for (let j = 0; j < grid[0].length; j++) {
-      if (dp[j] || dp[j - 1]) {
-        dp[j] = Math.min(dp[j] || Infinity, dp[j - 1] || Infinity) + grid[i][j];
+      if (i === 0) {
+        dp[j] = (dp[j - 1] || 0) + grid[i][j];
         continue;
       }
-      dp[j] = grid[i][j];
+      if (j === 0) {
+        dp[j] = dp[j] + grid[i][j];
+        continue;
+      }
+      dp[j] = Math.min(dp[j], dp[j - 1]) + grid[i][j];
     }
   }
 
