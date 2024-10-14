@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer {
+    width: 100%; /* 或指定一个具体的宽度 */
+    overflow-x: auto; /* 启用横向滚动 */
+    white-space: nowrap; /* 防止换行，让内部盒子在一行显示 */
+    text-align: center; /* 让内部盒子居中 */
+      }
+
+      .inner {
+          display: inline-block; /* 内部容器设置为 inline-block */
+      }
+
+      .box {
+          display: inline-block; /* 子元素为 inline-block */
+          width: 200px; /* 示例宽度 */
+          height: 100px; /* 示例高度 */
+          margin: 0 10px; /* 盒子之间的间距 */
+          background-color: lightblue; /* 示例背景色 */
+      }
+
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <!-- 更多内容 -->
+    </div>
+</div>
+
+</body>
+</html>

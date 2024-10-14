@@ -1,0 +1,3662 @@
+.page {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+.block_1 {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng2e68f39352bb23f0b57146cca2640df3bb26aa26682066a36b5e596065e7c953)
+    100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.box_1 {
+  width: 1817px;
+  height: 69px;
+  margin: 1px 0 0 121px;
+}
+
+.text-wrapper_1 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 114px;
+  height: 21px;
+  overflow-wrap: break-word;
+  font-size: 0;
+  letter-spacing: 0.75px;
+  font-family: Times-Roman;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.text_1 {
+  width: 114px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(113, 144, 182, 1);
+  font-size: 15px;
+  font-family: Times-Roman;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 18px;
+}
+
+.text_2 {
+  width: 114px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(113, 144, 182, 1);
+  font-size: 15px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 18px;
+}
+
+.text_3 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 74px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(113, 144, 182, 1);
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 18px;
+  margin: 20px 0 0 20px;
+}
+
+.section_1 {
+  position: relative;
+  width: 814px;
+  height: 69px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7edb70902a3d4a3561e6cf9c1d926abedf7d57ba2f545fcf430dc5efb9089369) -100px -1px
+    no-repeat;
+  background-size: 915px 232px;
+  margin-left: 795px;
+}
+
+.box_2 {
+  width: 206px;
+  height: 35px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngf6ac19b88824c561c40d3aa850f87a5c499381c071a97cae19d695c1326824ee) -1px -1px
+    no-repeat;
+  background-size: 208px 36px;
+  margin: 24px 0 0 372px;
+}
+
+.text_4 {
+  width: 90px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(171, 191, 218, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 22px;
+}
+
+.thumbnail_1 {
+  width: 16px;
+  height: 16px;
+  margin: 10px 20px 0 58px;
+}
+
+.box_3 {
+  width: 86px;
+  height: 35px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngd401433f4c63df2094431f91da7148507193cdec0fb5efa4563765fbb980282e) -1px -1px
+    no-repeat;
+  background-size: 88px 36px;
+  margin: 24px 0 0 9px;
+}
+
+.thumbnail_2 {
+  width: 16px;
+  height: 16px;
+  margin: 10px 0 0 14px;
+}
+
+.text_5 {
+  width: 34px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(171, 191, 218, 1);
+  font-size: 14px;
+  letter-spacing: 2.5199999809265137px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 14px 0 0;
+}
+
+.box_4 {
+  width: 86px;
+  height: 35px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngd401433f4c63df2094431f91da7148507193cdec0fb5efa4563765fbb980282e) -1px -1px
+    no-repeat;
+  background-size: 88px 36px;
+  margin: 24px 46px 0 9px;
+}
+
+.thumbnail_3 {
+  width: 16px;
+  height: 16px;
+  margin: 10px 0 0 14px;
+}
+
+.text_6 {
+  width: 34px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(171, 191, 218, 1);
+  font-size: 14px;
+  letter-spacing: 2.5199999809265137px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 14px 0 0;
+}
+
+.text-wrapper_2 {
+  height: 71px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngd1dd650ca2eb70b7088cb27a67f7e299f2de420b23f2d56e56f4671b027aad82) -80px
+    0px no-repeat;
+  background-size: 906px 215px;
+  width: 705px;
+  position: absolute;
+  left: -518px;
+  top: -1px;
+}
+
+.text_7 {
+  width: 346px;
+  height: 34px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 34px;
+  letter-spacing: 6.119999885559082px;
+  font-family: PangMenZhengDao;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 39px;
+  margin: 12px 0 0 181px;
+}
+
+.box_5 {
+  height: 886px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng9dc5e372bf41707919a395420cdbff09587015389ed7958cfd8b16a0e4696986)
+    100% no-repeat;
+  background-size: 100% 100%;
+  width: 1709px;
+  position: relative;
+  margin: 30px 0 94px 211px;
+}
+
+.box_6 {
+  width: 616px;
+  height: 44px;
+  margin: 12px 0 0 441px;
+}
+
+.text-wrapper_3 {
+  height: 44px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngfabc133c5318be9158313f022739d5f351d62367f142913f8534f8f4ea6488d0) -15px -14px
+    no-repeat;
+  background-size: 158px 59px;
+  width: 136px;
+}
+
+.text_8 {
+  width: 99px;
+  height: 17px;
+  overflow-wrap: break-word;
+  color: rgba(22, 119, 255, 1);
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-family: SourceHanSansCN-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 26px;
+  margin: 13px 0 0 20px;
+}
+
+.text-wrapper_4 {
+  height: 44px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng25843a8e5a349b380da14dbf467b6f879b2cf5d3548d6e0b23e61ac15d460b4e) -15px -8px
+    no-repeat;
+  background-size: 158px 53px;
+  margin-left: 24px;
+  width: 136px;
+}
+
+.text_9 {
+  width: 92px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(135, 172, 218, 1);
+  font-size: 15px;
+  letter-spacing: 4.5px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 15px 0 0 23px;
+}
+
+.text-wrapper_5 {
+  height: 44px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng25843a8e5a349b380da14dbf467b6f879b2cf5d3548d6e0b23e61ac15d460b4e) -15px -8px
+    no-repeat;
+  background-size: 158px 53px;
+  margin-left: 24px;
+  width: 136px;
+}
+
+.text_10 {
+  width: 92px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(135, 172, 218, 1);
+  font-size: 15px;
+  letter-spacing: 4.5px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 15px 0 0 23px;
+}
+
+.text-wrapper_6 {
+  height: 44px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng25843a8e5a349b380da14dbf467b6f879b2cf5d3548d6e0b23e61ac15d460b4e) -15px -8px
+    no-repeat;
+  background-size: 158px 53px;
+  margin-left: 24px;
+  width: 136px;
+}
+
+.text_11 {
+  width: 92px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(135, 172, 218, 1);
+  font-size: 15px;
+  letter-spacing: 4.5px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 15px 0 0 23px;
+}
+
+.text-wrapper_7 {
+  width: 82px;
+  height: 32px;
+  margin: 58px 0 740px 699px;
+}
+
+.text_12 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.box_7 {
+  position: absolute;
+  left: -199px;
+  top: -18px;
+  width: 468px;
+  height: 965px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng985e119338fb673092b30b2d53c7376943630d59aaf91cbf6488811376d62f58) -12px -29px
+    no-repeat;
+  background-size: 623px 1027px;
+}
+
+.text-wrapper_8 {
+  height: 31px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng8ddc20f43c5705bd1e2f7e7f7a412dc2335665531b9650b660591665d3ada307) -42px -24px
+    no-repeat;
+  background-size: 501px 90px;
+  width: 435px;
+  margin: 42px 0 0 36px;
+}
+
+.text_13 {
+  width: 78px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  letter-spacing: 2.7900002002716064px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 3px 0 0 35px;
+}
+
+.box_8 {
+  width: 406px;
+  height: 170px;
+  margin: 11px 0 0 63px;
+}
+
+.box_9 {
+  width: 150px;
+  height: 170px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng74a994ec488994a38dc98e2a57392c9108d5ddeffdc9fe20d0b8aa758f009ef1) -1px -1px
+    no-repeat;
+  background-size: 152px 172px;
+}
+
+.text_14 {
+  width: 42px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 16px 0 0 54px;
+}
+
+.box_10 {
+  width: 116px;
+  height: 67px;
+  margin: 20px 0 0 17px;
+}
+
+.image_1 {
+  width: 64px;
+  height: 67px;
+}
+
+.text-wrapper_9 {
+  width: 43px;
+  height: 52px;
+  margin-top: 5px;
+}
+
+.text_15 {
+  width: 43px;
+  height: 20px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 30px;
+}
+
+.text_16 {
+  width: 20px;
+  height: 20px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 30px;
+  margin-top: 12px;
+}
+
+.text_17 {
+  width: 74px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 16px 0 19px 38px;
+}
+
+.box_11 {
+  width: 120px;
+  height: 170px;
+  border: 1px solid;
+  margin-left: 8px;
+}
+
+.text_18 {
+  width: 42px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 16px 0 0 39px;
+}
+
+.image_2 {
+  width: 51px;
+  height: 54px;
+  margin: 11px 0 0 35px;
+}
+
+.text_19 {
+  width: 40px;
+  height: 20px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 30px;
+  margin-left: 40px;
+}
+
+.text_20 {
+  width: 74px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 18px 0 19px 23px;
+}
+
+.box_12 {
+  width: 120px;
+  height: 170px;
+  border: 1px solid;
+  margin-left: 8px;
+}
+
+.text_21 {
+  width: 42px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 16px 0 0 39px;
+}
+
+.image_3 {
+  width: 51px;
+  height: 54px;
+  margin: 11px 0 0 35px;
+}
+
+.text_22 {
+  width: 40px;
+  height: 20px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 30px;
+  margin-left: 40px;
+}
+
+.text_23 {
+  width: 74px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 18px 0 19px 23px;
+}
+
+.box_13 {
+  width: 435px;
+  height: 31px;
+  margin: 12px 0 0 36px;
+}
+
+.box_14 {
+  width: 7px;
+  height: 17px;
+  margin-top: 7px;
+}
+
+.box_15 {
+  box-shadow: 0px 0px 14px 0px rgba(246, 250, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 5px;
+  height: 5px;
+  margin-left: 1px;
+}
+
+.thumbnail_4 {
+  width: 7px;
+  height: 7px;
+  margin-top: 5px;
+}
+
+.box_16 {
+  height: 31px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngc13eb49606b0055ec06be58d328f5957c435d9706002f44e643edf857dd73911) -9px -3px
+    no-repeat;
+  background-size: 446px 65px;
+  width: 413px;
+}
+
+.group_1 {
+  height: 30px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng140eff1cdd1d4caab05f6576337fd188fab02cadd01a10dce79272b0dccdecb3)
+    0px 0px no-repeat;
+  background-size: 303px 31px;
+  margin-left: 10px;
+  width: 303px;
+  position: relative;
+}
+
+.text_24 {
+  width: 78px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  letter-spacing: 2.7900002002716064px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 2px 0 0 3px;
+}
+
+.image-wrapper_1 {
+  height: 10px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPnge7a1b4cdb5880a1c083364088d90da5bae7b328f24774f71e73dac1dd0f6c0e0) -1px -1px
+    no-repeat;
+  background-size: 353px 12px;
+  width: 352px;
+  position: absolute;
+  left: -21px;
+  top: 15px;
+}
+
+.image_4 {
+  width: 352px;
+  height: 10px;
+}
+
+.text_25 {
+  width: 72px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(71, 88, 112, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 16px 0 0 218px;
+}
+
+.box_17 {
+  box-shadow: inset 0px 1px 10px 0px rgba(95, 141, 187, 1);
+  background-color: rgba(202, 222, 244, 1);
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+  margin: 14px 0 0 194px;
+}
+
+.text_26 {
+  width: 144px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(71, 88, 112, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 18px 0 0 181px;
+}
+
+.box_18 {
+  width: 413px;
+  height: 160px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng8b69dd70be5db8b81920dbb507ea60db617f3c185cb18e3ec7b09f95b3c77ab7)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin: 11px 0 0 56px;
+}
+
+.section_2 {
+  width: 105px;
+  height: 112px;
+  margin: 38px 0 0 20px;
+}
+
+.text-group_1 {
+  width: 76px;
+  height: 41px;
+  margin-left: 10px;
+}
+
+.text_27 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 75px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 23px;
+}
+
+.text_28 {
+  width: 18px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(87, 121, 162, 1);
+  font-size: 18px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 5px 0 0 58px;
+}
+
+.text-group_2 {
+  width: 105px;
+  height: 41px;
+  margin-top: 30px;
+}
+
+.text_29 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 105px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 23px;
+}
+
+.text_30 {
+  width: 18px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(87, 121, 162, 1);
+  font-size: 18px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 5px 0 0 86px;
+}
+
+.section_3 {
+  position: relative;
+  width: 116px;
+  height: 116px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng2e352a9b9a2f5eedf879e9e4ffd6ea63b7945a36baa859e021edb992deccff52)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin: 25px 0 0 15px;
+}
+
+.box_19 {
+  background-color: rgba(6, 195, 255, 1);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 30px 0 0 2px;
+}
+
+.image_5 {
+  width: 87px;
+  height: 87px;
+  margin: 15px 14px 0 8px;
+}
+
+.box_20 {
+  position: absolute;
+  left: 13px;
+  top: 4px;
+  width: 100px;
+  height: 109px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng37f3cd70c6718a919a5d2f3321d81417c395ea36929e4abf5bde4d118a4af972) -61px -61px
+    no-repeat;
+  background-size: 221px 230px;
+}
+
+.group_2 {
+  width: 77px;
+  height: 77px;
+  margin: 25px 0 0 6px;
+}
+
+.text_31 {
+  width: 50px;
+  height: 36px;
+  overflow-wrap: break-word;
+  color: rgba(64, 169, 255, 1);
+  font-size: 31px;
+  letter-spacing: 1.2939631938934326px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 36px;
+  margin-left: 15px;
+}
+
+.text_32 {
+  width: 74px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(108, 121, 139, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 22px;
+  margin: 4px 0 0 3px;
+}
+
+.section_4 {
+  background-color: rgba(240, 72, 100, 1);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-top: 17px;
+}
+
+.group_3 {
+  height: 109px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngbc3636c800b97410ee827db6d6419da2341ed7123ed4925fea9f87cdef47a532) -61px -61px
+    no-repeat;
+  background-size: 176px 230px;
+  width: 54px;
+  position: relative;
+  margin: 0 1px 0 -38px;
+}
+
+.box_21 {
+  height: 95px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng92bff8a9e481066ee1a9e871aa5d14f6b397e20dc00e988c643ded70e95e238b) -61px -61px
+    no-repeat;
+  background-size: 176px 217px;
+  width: 54px;
+  position: relative;
+}
+
+.box_22 {
+  height: 34px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngd41397881f1f55d922ea9ceeefe249d836c9e947851d3d007ea30be47608b192) -4px -4px
+    no-repeat;
+  background-size: 58px 42px;
+  width: 50px;
+  position: relative;
+}
+
+.block_2 {
+  background-color: rgba(80, 227, 194, 1);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 6px 0 0 35px;
+}
+
+.block_3 {
+  background-color: rgba(36, 201, 255, 1);
+  border-radius: 50%;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  width: 7px;
+  height: 7px;
+}
+
+.image_6 {
+  position: absolute;
+  left: 40px;
+  top: -13px;
+  width: 41px;
+  height: 20px;
+}
+
+.box_23 {
+  background-color: rgba(245, 166, 35, 1);
+  border-radius: 50%;
+  position: absolute;
+  left: 21px;
+  top: 105px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.image_7 {
+  position: absolute;
+  left: -23px;
+  top: 101px;
+  width: 31px;
+  height: 10px;
+}
+
+.box_24 {
+  background-color: rgba(248, 231, 28, 1);
+  border-radius: 50%;
+  position: absolute;
+  left: 113px;
+  top: 65px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.image_8 {
+  position: absolute;
+  left: 84px;
+  top: 113px;
+  width: 31px;
+  height: 10px;
+}
+
+.image_9 {
+  position: absolute;
+  left: -28px;
+  top: 21px;
+  width: 31px;
+  height: 10px;
+}
+
+.section_5 {
+  width: 93px;
+  height: 151px;
+  margin: 9px 62px 0 2px;
+}
+
+.text-group_3 {
+  width: 45px;
+  height: 41px;
+  margin-left: 28px;
+}
+
+.text_33 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 45px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+}
+
+.text_34 {
+  width: 18px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(87, 121, 162, 1);
+  font-size: 18px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: 5px;
+}
+
+.box_25 {
+  width: 93px;
+  height: 41px;
+  margin-top: 14px;
+}
+
+.image_10 {
+  width: 41px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+.text-wrapper_10 {
+  width: 45px;
+  height: 41px;
+}
+
+.text_35 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 45px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+}
+
+.text_36 {
+  width: 18px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(87, 121, 162, 1);
+  font-size: 18px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: 5px;
+}
+
+.text_37 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 45px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 14px 0 0 4px;
+}
+
+.text_38 {
+  width: 26px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(87, 121, 162, 1);
+  font-size: 18px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 5px 0 0 4px;
+}
+
+.box_26 {
+  width: 435px;
+  height: 31px;
+  margin: 10px 0 0 36px;
+}
+
+.group_4 {
+  width: 7px;
+  height: 17px;
+  margin-top: 7px;
+}
+
+.block_4 {
+  box-shadow: 0px 0px 14px 0px rgba(246, 250, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 5px;
+  height: 5px;
+  margin-left: 1px;
+}
+
+.thumbnail_5 {
+  width: 7px;
+  height: 7px;
+  margin-top: 5px;
+}
+
+.group_5 {
+  height: 31px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngc13eb49606b0055ec06be58d328f5957c435d9706002f44e643edf857dd73911) -9px -3px
+    no-repeat;
+  background-size: 446px 65px;
+  width: 413px;
+}
+
+.block_5 {
+  height: 30px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7fdd5333f6ae7055619e4bfcf486268663d4af813a1ccd342dd8d738386ce1da)
+    0px 0px no-repeat;
+  background-size: 303px 31px;
+  margin-left: 10px;
+  width: 303px;
+  position: relative;
+}
+
+.text_39 {
+  width: 165px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  letter-spacing: 2.7900002002716064px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 2px 0 0 3px;
+}
+
+.image-wrapper_2 {
+  height: 10px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPnge7a1b4cdb5880a1c083364088d90da5bae7b328f24774f71e73dac1dd0f6c0e0) -1px -1px
+    no-repeat;
+  background-size: 353px 12px;
+  width: 352px;
+  position: absolute;
+  left: -21px;
+  top: 15px;
+}
+
+.image_11 {
+  width: 352px;
+  height: 10px;
+}
+
+.box_27 {
+  width: 236px;
+  height: 16px;
+  margin: 24px 0 0 117px;
+}
+
+.section_6 {
+  background-color: rgba(56, 171, 242, 1);
+  width: 14px;
+  height: 3px;
+  margin-top: 7px;
+}
+
+.text_40 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 69px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  letter-spacing: 1.5600000619888306px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-left: 11px;
+}
+
+.image-text_1 {
+  width: 90px;
+  height: 16px;
+  margin-left: 52px;
+}
+
+.box_28 {
+  background-color: rgba(226, 241, 255, 1);
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+}
+
+.text-group_4 {
+  text-shadow: 10px 14px 39px rgba(111, 149, 192, 0.18);
+  width: 69px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 15px;
+  letter-spacing: 1.5600000619888306px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+}
+
+.box_29 {
+  width: 408px;
+  height: 134px;
+  margin: 27px 0 0 51px;
+}
+
+.text-wrapper_11 {
+  width: 28px;
+  height: 134px;
+}
+
+.text_41 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 28px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+}
+
+.text_42 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 28px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: 26px;
+}
+
+.text_43 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 19px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 26px 0 0 9px;
+}
+
+.text_44 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 10px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 26px 0 0 18px;
+}
+
+.block_6 {
+  height: 117px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng43ec43ad8b86e77124863e0502c2991e6cedb9d00881ac0d989fe8f25a9ec7ca)
+    0px -1px no-repeat;
+  background-size: 370px 118px;
+  margin-top: 13px;
+  width: 370px;
+}
+
+.block_7 {
+  height: 110px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngf2597e6edc3b8da9640316fa064d989cc02038978420f002be66014769f8b430) -25px -11px
+    no-repeat;
+  background-size: 415px 160px;
+  width: 365px;
+  margin: -20px 0 0 4px;
+}
+
+.block_8 {
+  box-shadow: 0px 5px 15px 0px rgba(140, 169, 200, 1);
+  background-color: rgba(80, 165, 254, 1);
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border: 2.5px solid rgba(255, 255, 255, 1);
+  margin: 74.5px 0 0 142.5px;
+}
+
+.text-wrapper_12 {
+  width: 342px;
+  height: 14px;
+  margin: 4px 0 37px 100px;
+}
+
+.text_45 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+}
+
+.text_46 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.text_47 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.text_48 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.text_49 {
+  text-shadow: 8px 11px 30px rgba(111, 149, 192, 0.18);
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 14px;
+  letter-spacing: 1.399999976158142px;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.box_30 {
+  position: absolute;
+  left: 1390px;
+  top: 0;
+  width: 508px;
+  height: 965px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng59b780ed596b67835c6cf85b209d9f0b75196d725ba5f0879bfaf37d5f852095) -143px -29px
+    no-repeat;
+  background-size: 661px 1027px;
+}
+
+.text-wrapper_13 {
+  height: 31px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng8ddc20f43c5705bd1e2f7e7f7a412dc2335665531b9650b660591665d3ada307) -42px -24px
+    no-repeat;
+  background-size: 501px 90px;
+  width: 435px;
+  margin: 42px 0 0 16px;
+}
+
+.text_50 {
+  width: 78px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  letter-spacing: 2.7900002002716064px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 3px 0 0 35px;
+}
+
+.block_9 {
+  width: 371px;
+  height: 191px;
+  margin: 15px 0 0 38px;
+}
+
+.box_31 {
+  position: relative;
+  width: 110px;
+  height: 190px;
+  border: 1px solid;
+  margin-top: 1px;
+}
+
+.text-wrapper_14 {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 26px;
+  width: 106px;
+  margin: 2px 0 0 2px;
+}
+
+.text_51 {
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 6px 0 0 32px;
+}
+
+.text-wrapper_15 {
+  width: 106px;
+  height: 113px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng55c1169092dec98d9a2ba3d6ed1f1ec026c04f70a67462f9123292ee5bea58b9) -1px
+    0px no-repeat;
+  background-size: 107px 113px;
+  margin: 1px 0 0 2px;
+}
+
+.text_52 {
+  width: 48px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(136, 136, 136, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 10px 0 0 29px;
+}
+
+.paragraph_1 {
+  width: 99px;
+  height: 60px;
+  overflow-wrap: break-word;
+  color: rgba(136, 136, 136, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  line-height: 30px;
+  margin: 5px 0 20px 4px;
+}
+
+.text-wrapper_16 {
+  height: 30px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng10f529806f6f56e5f0d438c6add24ccebee111a0313f2c4c37c0a6e8a999959c) -1px
+    0px no-repeat;
+  background-size: 107px 30px;
+  width: 106px;
+  margin: 1px 0 17px 2px;
+}
+
+.text_53 {
+  width: 38px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 9px 0 0 34px;
+}
+
+.box_32 {
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 4px;
+  height: 4px;
+}
+
+.box_33 {
+  position: relative;
+  width: 144px;
+  height: 190px;
+  border: 1px solid;
+  margin: 1px 0 0 4px;
+}
+
+.text-wrapper_17 {
+  background-color: rgba(131, 191, 239, 1);
+  height: 26px;
+  width: 140px;
+  margin: 3px 0 0 2px;
+}
+
+.text_54 {
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 6px 0 0 49px;
+}
+
+.text-wrapper_18 {
+  width: 140px;
+  height: 113px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng4fb5e3f2017365dfd59ff3024f0dfe7bc8a45e9a1c1dd1d668c812670aec86a6) -1px
+    0px no-repeat;
+  background-size: 141px 114px;
+  margin-left: 2px;
+}
+
+.text_55 {
+  width: 49px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 10px 0 0 45px;
+}
+
+.paragraph_2 {
+  width: 124px;
+  height: 72px;
+  overflow-wrap: break-word;
+  color: rgba(22, 119, 255, 1);
+  font-size: 20px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  line-height: 36px;
+  margin: 6px 0 7px 7px;
+}
+
+.text-wrapper_19 {
+  height: 30px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngc49a6948662fbb689def32ced2750f56808d2c5d8607ab6a18965a0cdb6840d2)
+    0px 0px no-repeat;
+  background-size: 140px 31px;
+  width: 140px;
+  margin: 11px 0 7px 2px;
+}
+
+.text_56 {
+  width: 38px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(1, 64, 153, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 10px 0 0 51px;
+}
+
+.box_34 {
+  background-color: rgba(22, 119, 255, 1);
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 4px;
+  height: 4px;
+}
+
+.text-wrapper_20 {
+  width: 110px;
+  height: 190px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng447144c6b27a8755accb791bc347687c2d9d1664392085dcac14d5ccceb05762)
+    0px 0px no-repeat;
+  background-size: 111px 192px;
+  margin-left: 3px;
+}
+
+.text_57 {
+  width: 42px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(51, 75, 109, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 9px 0 0 35px;
+}
+
+.text_58 {
+  width: 48px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(51, 75, 109, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 17px 0 0 32px;
+}
+
+.paragraph_3 {
+  width: 99px;
+  height: 60px;
+  overflow-wrap: break-word;
+  color: rgba(51, 75, 109, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  line-height: 30px;
+  margin: 5px 0 0 7px;
+}
+
+.text_59 {
+  width: 38px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 30px 0 23px 37px;
+}
+
+.block_10 {
+  width: 435px;
+  height: 31px;
+  margin: 23px 0 0 16px;
+}
+
+.block_11 {
+  width: 7px;
+  height: 16px;
+  margin-top: 8px;
+}
+
+.group_6 {
+  box-shadow: 0px 0px 14px 0px rgba(246, 250, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 5px;
+  height: 5px;
+  margin-left: 1px;
+}
+
+.thumbnail_6 {
+  width: 7px;
+  height: 7px;
+  margin-top: 4px;
+}
+
+.block_12 {
+  height: 31px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPnga8af2e61568a93c750a1cc30e4bf7eb5b06a1892b4e6bf2327eb915d68400178) -9px -2px
+    no-repeat;
+  background-size: 446px 64px;
+  width: 413px;
+}
+
+.group_7 {
+  height: 30px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng35fbf26351df63d20ba2be6aa44522491c4cb043983215f6deecad33d78f4f66)
+    0px 0px no-repeat;
+  background-size: 303px 31px;
+  width: 303px;
+  position: relative;
+  margin: 1px 0 0 10px;
+}
+
+.text_60 {
+  width: 78px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  letter-spacing: 2.7900002002716064px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 23px;
+  margin: 2px 0 0 3px;
+}
+
+.image-wrapper_3 {
+  height: 10px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng24ef351dd6739aa876749ade95c71d3ece86de21a3952dbdca406950c3e657ba) -1px -1px
+    no-repeat;
+  background-size: 353px 12px;
+  width: 352px;
+  position: absolute;
+  left: -21px;
+  top: 15px;
+}
+
+.image_12 {
+  width: 352px;
+  height: 10px;
+}
+
+.block_13 {
+  box-shadow: 9px 17px 30px 0px rgba(85, 111, 141, 0.1);
+  width: 420px;
+  height: 568px;
+  margin: 14px 0 0 37px;
+}
+
+.text-wrapper_21 {
+  width: 420px;
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng35b97c3ab8485df6ab0c4cb9de6aab9ad9342a8817864cda7732ae7dba43ba17) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+}
+
+.text_61 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.text_62 {
+  width: 64px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 62px;
+}
+
+.text_63 {
+  width: 64px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 41px 0 125px;
+}
+
+.block_14 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_64 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_65 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_22 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_66 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_15 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_67 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_68 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_23 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_69 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_16 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 5px;
+}
+
+.text_70 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_71 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_24 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_72 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_17 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_73 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_74 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_25 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_75 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_18 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_76 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_77 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_26 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_78 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_19 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_79 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_80 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_27 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_81 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.block_20 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 5px;
+}
+
+.text_82 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_83 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_28 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_84 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 32px;
+}
+
+.block_21 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_85 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_86 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_29 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_87 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.block_22 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_88 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_89 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_30 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_90 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.block_23 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_91 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_92 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_31 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_93 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.block_24 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 5px;
+}
+
+.text_94 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_95 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_32 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_96 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.block_25 {
+  position: relative;
+  width: 420px;
+  height: 36px;
+  margin-top: 6px;
+}
+
+.text_97 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 0 0 126px;
+}
+
+.text_98 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+  margin: 11px 87px 0 51px;
+}
+
+.text-wrapper_33 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text_99 {
+  width: 48px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 32px;
+}
+
+.text-wrapper_34 {
+  width: 207px;
+  height: 14px;
+  margin: 17px 0 0 126px;
+}
+
+.text_100 {
+  width: 140px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+}
+
+.text_101 {
+  width: 16px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 21px;
+}
+
+.text-wrapper_35 {
+  height: 36px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng7bab84854dc3263fed60b811d16d456a0e14b0cb85928e25698588546fd89f8e) -21px -13px
+    no-repeat;
+  background-size: 480px 96px;
+  width: 420px;
+  margin: -25px 0 39px 37px;
+}
+
+.text_102 {
+  width: 32px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(48, 75, 112, 1);
+  font-size: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 7px 0 0 32px;
+}
+
+.image_13 {
+  position: absolute;
+  left: 242px;
+  top: 768px;
+  width: 1px;
+  height: 142px;
+}
+
+.box_35 {
+  height: 48px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngcd859e5fe20f04d9af30f1bbe035e5d1b2cb7a467a4ecf0252a7c9151fd9f168)
+    100% no-repeat;
+  background-size: 100% 100%;
+  width: 80px;
+  position: absolute;
+  left: 203px;
+  top: 794px;
+}
+
+.box_36 {
+  border-radius: 5px;
+  width: 80px;
+  height: 48px;
+}
+
+.image-text_2 {
+  width: 80px;
+  height: 42px;
+}
+
+.text-wrapper_36 {
+  height: 18px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng175291ad6ea1e35cc00ceabf50598a6c076873150aa4a722decf854a9acef53e)
+    0px 0px no-repeat;
+  background-size: 80px 19px;
+  width: 80px;
+}
+
+.text_103 {
+  width: 36px;
+  height: 9px;
+  overflow-wrap: break-word;
+  color: rgba(91, 116, 144, 1);
+  font-size: 9px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 14px;
+  margin: 5px 0 0 8px;
+}
+
+.text-group_5 {
+  width: 49px;
+  height: 19px;
+  margin: 5px 0 0 8px;
+}
+
+.text_104 {
+  width: 35px;
+  height: 19px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 19px;
+}
+
+.text_105 {
+  text-shadow: 8px 10px 9px rgba(85, 111, 141, 0.3);
+  width: 8px;
+  height: 8px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 7px;
+  letter-spacing: 0.44999998807907104px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 12px;
+  margin-top: 7px;
+}
+
+.box_37 {
+  height: 521px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng9e2acd63014269289a6c98ca420837cf605c1f27cc40e4c3ff316d6f5989aa84)
+    0px -1px no-repeat;
+  background-size: 1088px 522px;
+  width: 1087px;
+  position: absolute;
+  left: 370px;
+  top: 317px;
+}
+
+.text-wrapper_37 {
+  width: 117px;
+  height: 70px;
+  margin: 6px 0 0 589px;
+}
+
+.text_106 {
+  width: 31px;
+  height: 28px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  letter-spacing: 2.9183998107910156px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 18px;
+}
+
+.text_107 {
+  width: 74px;
+  height: 49px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  letter-spacing: 2.9183998107910156px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 18px;
+  margin-top: 21px;
+}
+
+.text-wrapper_38 {
+  width: 33px;
+  height: 25px;
+  margin: 10px 0 0 470px;
+}
+
+.text_108 {
+  width: 33px;
+  height: 25px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 11px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 13px;
+}
+
+.box_38 {
+  width: 901px;
+  height: 290px;
+  margin-left: 117px;
+}
+
+.section_7 {
+  position: relative;
+  width: 122px;
+  height: 117px;
+  margin-top: 71px;
+}
+
+.text-wrapper_39 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng51c78cbd219b51c7e1e00dee95b11b80c71a8beb58a80988528011bfa2df010b) -102px -63px
+    no-repeat;
+  background-size: 305px 242px;
+  margin-top: 29px;
+  width: 122px;
+}
+
+.text_109 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 10px 0 0 17px;
+}
+
+.text_110 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  position: absolute;
+  left: 13px;
+  top: 0;
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.section_8 {
+  position: relative;
+  width: 548px;
+  height: 290px;
+  margin-left: 47px;
+}
+
+.text_111 {
+  width: 25px;
+  height: 21px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 11px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 13px;
+  margin: 101px 0 0 13px;
+}
+
+.box_39 {
+  height: 290px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng9890d411bd847a133f760292ef06ebcd515f032d546b81bfa1601f047960fdf3) -65px -47px
+    no-repeat;
+  background-size: 678px 438px;
+  width: 548px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.image-wrapper_4 {
+  height: 219px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng246f5c0d9feb7cdb8c75c5c843acb6935cd10e8870bf143e538ce6c11e8dd271) -24px -1px
+    no-repeat;
+  background-size: 434px 312px;
+  width: 386px;
+  margin: -47px 0 0 81px;
+}
+
+.image_14 {
+  width: 294px;
+  height: 213px;
+  margin: -105px 0 0 71px;
+}
+
+.section_9 {
+  width: 122px;
+  height: 119px;
+  margin: 72px 0 0 62px;
+}
+
+.text_112 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  width: 67px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+  margin-left: 19px;
+}
+
+.text-wrapper_40 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng88b0816234a5432e712f7b6e15ef583730625971980c4284eed253496407d0cf) -103px -64px
+    no-repeat;
+  background-size: 306px 242px;
+  margin-top: -1px;
+  width: 122px;
+}
+
+.text_113 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 8px 0 0 14px;
+}
+
+.text-wrapper_41 {
+  width: 34px;
+  height: 25px;
+  margin: 87px 0 8px 625px;
+}
+
+.text_114 {
+  width: 34px;
+  height: 25px;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 13px;
+}
+
+.box_40 {
+  height: 784px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngcaa43f5d5c5389f56806ca5993881e6da6e57d7c937f82fd6128ae5e57e23dcc)
+    0px 0px no-repeat;
+  background-size: 688px 785px;
+  width: 687px;
+  position: absolute;
+  left: 234px;
+  top: -173px;
+}
+
+.group_8 {
+  width: 485px;
+  height: 203px;
+  margin: 21px 0 0 97px;
+}
+
+.section_10 {
+  position: relative;
+  width: 122px;
+  height: 112px;
+  margin-top: 87px;
+}
+
+.text-wrapper_42 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng51c78cbd219b51c7e1e00dee95b11b80c71a8beb58a80988528011bfa2df010b) -102px -63px
+    no-repeat;
+  background-size: 305px 242px;
+  margin-top: 24px;
+  width: 122px;
+}
+
+.text_115 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 15px 0 0 15px;
+}
+
+.text_116 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  position: absolute;
+  left: 17px;
+  top: 0;
+  width: 67px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(22, 119, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.section_11 {
+  position: relative;
+  width: 170px;
+  height: 203px;
+  margin-left: 24px;
+}
+
+.text-wrapper_43 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngdea06b96c1ed75243014913d32daa0bbaf286407cb9a55eb1b7132850a4c7206) -102px -63px
+    no-repeat;
+  background-size: 306px 241px;
+  margin-left: 39px;
+  width: 122px;
+}
+
+.text_117 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 6px 0 0 14px;
+}
+
+.image-wrapper_5 {
+  height: 62px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng71acba6999aa68416db8d03ad09074c2d19f2786f483436032a3965cd234715a)
+    0px 0px no-repeat;
+  background-size: 45px 63px;
+  width: 44px;
+  margin: 8px 0 0 116px;
+}
+
+.label_1 {
+  width: 32px;
+  height: 46px;
+  margin: 1px 0 0 -22px;
+}
+
+.text_118 {
+  width: 166px;
+  height: 34px;
+  overflow-wrap: break-word;
+  color: rgba(169, 225, 255, 1);
+  font-size: 34px;
+  letter-spacing: 6.119999885559082px;
+  font-family: PangMenZhengDao;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 39px;
+  margin: 11px 0 0 4px;
+}
+
+.text_119 {
+  position: absolute;
+  left: 0;
+  top: 166px;
+  width: 166px;
+  height: 34px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 34px;
+  letter-spacing: 6.119999885559082px;
+  font-family: PangMenZhengDao;
+  font-weight: normal;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 39px;
+}
+
+.section_12 {
+  position: relative;
+  width: 122px;
+  height: 121px;
+  margin: 81px 0 0 47px;
+}
+
+.text_120 {
+  width: 24px;
+  height: 23px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 12px;
+  letter-spacing: 0.7776000499725342px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 16px;
+  margin: 26px 0 0 84px;
+}
+
+.text_121 {
+  width: 18px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 6px;
+  letter-spacing: 0.3888000249862671px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 7px;
+  margin: 35px 0 23px 91px;
+}
+
+.text-wrapper_44 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng88b0816234a5432e712f7b6e15ef583730625971980c4284eed253496407d0cf) -103px -64px
+    no-repeat;
+  background-size: 306px 242px;
+  width: 122px;
+  position: absolute;
+  left: 0;
+  top: 33px;
+}
+
+.text_122 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 6px 0 0 16px;
+}
+
+.text_123 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  position: absolute;
+  left: 12px;
+  top: 0;
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.text-wrapper_45 {
+  width: 25px;
+  height: 20px;
+  margin-left: 304px;
+}
+
+.text_124 {
+  width: 25px;
+  height: 20px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 8px;
+  letter-spacing: 0.5184000730514526px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 10px;
+}
+
+.group_9 {
+  width: 665px;
+  height: 115px;
+  margin: 21px 0 0 -3px;
+}
+
+.block_26 {
+  position: relative;
+  width: 122px;
+  height: 115px;
+}
+
+.text-wrapper_46 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng51c78cbd219b51c7e1e00dee95b11b80c71a8beb58a80988528011bfa2df010b) -102px -63px
+    no-repeat;
+  background-size: 305px 242px;
+  margin-top: 27px;
+  width: 122px;
+}
+
+.text_125 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 12px 0 0 15px;
+}
+
+.text_126 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  position: absolute;
+  left: 11px;
+  top: 0;
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.text_127 {
+  width: 15px;
+  height: 12px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 5px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 6px;
+  margin: 49px 0 0 153px;
+}
+
+.text_128 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 17px 0 0 257px;
+}
+
+.text_129 {
+  width: 43px;
+  height: 37px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 16px;
+  letter-spacing: 0.993600070476532px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 19px;
+  margin: 40px 0 0 -7px;
+}
+
+.text-wrapper_47 {
+  width: 19px;
+  height: 14px;
+  margin: 5px 0 0 268px;
+}
+
+.text_130 {
+  width: 19px;
+  height: 14px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 6px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 7px;
+}
+
+.group_10 {
+  position: relative;
+  width: 445px;
+  height: 158px;
+  margin: 42px 0 0 47px;
+}
+
+.box_41 {
+  width: 30px;
+  height: 81px;
+  margin-top: 57px;
+}
+
+.label_2 {
+  width: 30px;
+  height: 42px;
+}
+
+.text_131 {
+  width: 17px;
+  height: 15px;
+  overflow-wrap: break-word;
+  color: rgba(240, 240, 240, 0.4);
+  font-size: 6px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 8px;
+  margin: 24px 0 0 13px;
+}
+
+.text_132 {
+  width: 32px;
+  height: 26px;
+  overflow-wrap: break-word;
+  color: rgba(240, 240, 240, 0.4);
+  font-size: 11px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 13px;
+  margin: 44px 0 0 81px;
+}
+
+.box_42 {
+  width: 122px;
+  height: 158px;
+  margin-left: 92px;
+}
+
+.text-wrapper_48 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngdea06b96c1ed75243014913d32daa0bbaf286407cb9a55eb1b7132850a4c7206) -102px -63px
+    no-repeat;
+  background-size: 306px 241px;
+  width: 122px;
+}
+
+.text_133 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 14px 0 0 16px;
+}
+
+.text_134 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  width: 82px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 38px 0 0 14px;
+}
+
+.label_3 {
+  width: 21px;
+  height: 29px;
+  margin: 102px 0 0 67px;
+}
+
+.text_135 {
+  position: absolute;
+  left: 198px;
+  top: 75px;
+  width: 43px;
+  height: 36px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 15px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  line-height: 18px;
+}
+
+.group_11 {
+  width: 292px;
+  height: 88px;
+  margin: -2px 0 0 112px;
+}
+
+.text_136 {
+  width: 12px;
+  height: 12px;
+  overflow-wrap: break-word;
+  color: rgba(240, 240, 240, 0.4);
+  font-size: 6px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 8px;
+}
+
+.text-wrapper_49 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngdea06b96c1ed75243014913d32daa0bbaf286407cb9a55eb1b7132850a4c7206) -102px -63px
+    no-repeat;
+  background-size: 306px 241px;
+  width: 122px;
+}
+
+.text_137 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 9px 0 0 16px;
+}
+
+.text-wrapper_50 {
+  width: 15px;
+  height: 17px;
+  margin: 58px 0 24px 488px;
+}
+
+.text_138 {
+  width: 15px;
+  height: 17px;
+  overflow-wrap: break-word;
+  color: rgba(241, 241, 241, 0.8);
+  font-size: 11px;
+  font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 13px;
+}
+
+.group_12 {
+  height: 159px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng84e3a51432724e3e85d71aed74aa07fa433a5703f136682bc3ce515d492358d4) -1px
+    0px no-repeat;
+  background-size: 358px 160px;
+  width: 356px;
+  position: absolute;
+  left: 14px;
+  top: 336px;
+}
+
+.text_139 {
+  text-shadow: 0px 0px 10px rgba(56, 125, 161, 0.4);
+  width: 67px;
+  height: 32px;
+  overflow-wrap: break-word;
+  color: rgba(24, 144, 255, 1);
+  font-size: 28px;
+  letter-spacing: 1.2999999523162842px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 80px 0 0 289px;
+}
+
+.group_13 {
+  height: 123px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngf08ba5ae7b7c9305025259fb3fa6a06a5821f5830e0762bd54e8a923b13e995f)
+    0px 0px no-repeat;
+  background-size: 257px 124px;
+  width: 256px;
+  position: absolute;
+  left: 348px;
+  top: 18px;
+}
+
+.text-wrapper_51 {
+  height: 88px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng88b0816234a5432e712f7b6e15ef583730625971980c4284eed253496407d0cf) -103px -64px
+    no-repeat;
+  background-size: 306px 242px;
+  width: 122px;
+  margin: -39px 0 0 168px;
+}
+
+.text_140 {
+  width: 75px;
+  height: 16px;
+  overflow-wrap: break-word;
+  color: rgba(38, 72, 114, 1);
+  font-size: 16px;
+  letter-spacing: 2.6666667461395264px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  margin: 6px 0 0 16px;
+}
+
+.box_43 {
+  position: absolute;
+  left: -314px;
+  top: 190px;
+  width: 413px;
+  height: 1px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng0cc620a642a79c1fd73a41c28aaa9d0b14542e6bc7ca595bfb1e6e8ba943b07c)
+    100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.box_44 {
+  position: absolute;
+  left: -314px;
+  top: 351px;
+  width: 413px;
+  height: 1px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng0cc620a642a79c1fd73a41c28aaa9d0b14542e6bc7ca595bfb1e6e8ba943b07c)
+    100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.image-wrapper_6 {
+  border-radius: 50%;
+  height: 122px;
+  border: 1.03448275862069px solid;
+  width: 122px;
+  position: absolute;
+  left: 192px;
+  top: 343px;
+}
+
+.image_15 {
+  width: 79px;
+  height: 97px;
+  margin: 11.034482758620697px 0 0 21.034482758620697px;
+}
+
+.image_16 {
+  position: absolute;
+  left: 100px;
+  top: 9px;
+  width: 158px;
+  height: 1px;
+}
+
+.image_17 {
+  position: absolute;
+  left: 100px;
+  top: 110px;
+  width: 158px;
+  height: 1px;
+}
+
+.image_18 {
+  position: absolute;
+  left: -136px;
+  top: 9px;
+  width: 158px;
+  height: 1px;
+}
+
+.box_45 {
+  position: absolute;
+  left: 56px;
+  top: 353px;
+  width: 156px;
+  height: 100px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngff9b8274f23d7dc646d3dabd9001ce1b0772799885d41f96fab4177cb0c124b0)
+    0px 0px no-repeat;
+  background-size: 157px 100px;
+}
+
+.text_141 {
+  width: 108px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 20px 0 0 12px;
+}
+
+.text_142 {
+  text-shadow: 0px 0px 10px rgba(56, 108, 161, 0.4);
+  width: 82px;
+  height: 28px;
+  overflow-wrap: break-word;
+  color: rgba(22, 119, 255, 1);
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28px;
+  margin: 15px 0 0 38px;
+}
+
+.image_19 {
+  width: 158px;
+  height: 1px;
+  margin-top: 18px;
+}
+
+.text-wrapper_52 {
+  position: absolute;
+  left: 292px;
+  top: 353px;
+  width: 156px;
+  height: 100px;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPng1ea3889fb4aff34b73a9ee06f6471d0dfc5d9394bff117aa8e52cc0d52bbe6cc)
+    0px 0px no-repeat;
+  background-size: 157px 100px;
+}
+
+.text_143 {
+  width: 72px;
+  height: 18px;
+  overflow-wrap: break-word;
+  color: rgba(32, 61, 98, 1);
+  font-size: 18px;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 20px 0 0 36px;
+}
+
+.text_144 {
+  text-shadow: 0px 0px 10px rgba(56, 108, 161, 0.4);
+  width: 114px;
+  height: 28px;
+  overflow-wrap: break-word;
+  color: rgba(22, 119, 255, 1);
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: DINAlternate-Bold;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 28px;
+  margin: 15px 0 19px 36px;
+}
+
+.image_20 {
+  position: absolute;
+  left: 372px;
+  top: 29px;
+  width: 753px;
+  height: 48px;
+}
+
+.image_21 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 182px;
+  height: 140px;
+}
+
+.image_22 {
+  position: absolute;
+  left: -19px;
+  top: 1px;
+  width: 814px;
+  height: 69px;
+}

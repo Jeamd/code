@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECharts Hollow Ring with Inner Circle</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div id="main" style="width: 600px; height: 400px;"></div>
+
+    <script>
+        // 1. 初始化ECharts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 2. 配置图表选项
+        var option = {
+            title: {
+                text: 'Hollow Ring with Inner Circle',
+                left: 'center',
+                show: false,
+            },
+            series: [
+                // 空心环形图
+                {
+                    name: 'Hollow Ring',
+                    type: 'pie',
+                    radius: ['60%', '70%'], // 内外径百分比
+                    avoidLabelOverlap: false,
+                    label: {
+                        show: true, // 显示标签
+                        position: 'outside', // 标签位置：'outside' 外部, 'inside' 内部, 'center' 中心
+                        formatter: '{b}: {d}%', // 标签格式化：{b}为名称, {d}为百分比
+                        fontSize: 14, // 字体大小
+                        color: '#333', // 字体颜色
+                        fontWeight: 'bold', // 字体粗细
+                        distanceToLabelLine: 10, // 标签与引导线之间的距离
+                    },
+                    labelLine: {
+                        show: true, // 显示引导线
+                        length: 20, // 第一段线的长度
+                        length2: 10, // 第二段线的长度
+                        smooth: true, // 是否平滑曲线
+                        lineStyle: {
+                            color: '#333', // 引导线颜色
+                            width: 2, // 引导线宽度
+                            type: 'solid' // 引导线样式：'solid', 'dashed', 'dotted'
+                        }
+                    },
+                    itemStyle: {
+                      // borderRadius: [0, 15, 0, 15], // 设置圆角半径：[左上, 右上, 右下, 左下]
+                      borderRadius: 15, // 设置圆角半径：[左上, 右上, 右下, 左下]
+                        // borderColor: '#fff', // 设置边框颜色
+                        // borderWidth: 100, // 设置边框宽度
+                        // shadowBlur: 10, // 设置阴影模糊度
+                        // shadowOffsetX: 10, // 设置阴影 X 轴偏移
+                        // shadowOffsetY: 0, // 设置阴影 Y 轴偏移
+                        // shadowColor: 'rgba(0, 0, 0, 0.5)' // 设置阴影颜色
+                    },
+                    data: [
+                        { value: 40, name: 'A' },
+                        { value: 30, name: 'B' },
+                        { value: 20, name: 'C' },
+                        { value: 10, name: 'D' }
+                    ]
+                },
+                // 内部圆
+                {
+                    name: 'Inner Circle',
+                    type: 'pie',
+                    radius: ['0%', '50%'], // 设置内部圆心部分
+                    avoidLabelOverlap: false,
+                    label: {
+                        show: true,
+                        position: 'center',
+                        formatter: function (params) {
+                            // 自定义显示内容
+                            return '{c|Total}\n{b|' + params.value + '}';
+                        },
+                        rich: {
+                            a: {
+                                color: '#333',
+                                fontSize: 16,
+                                fontWeight: 'bold',
+                                lineHeight: 30
+                            },
+                            b: {
+                                color: '#000',
+                                fontSize: 20,
+                                fontWeight: 'bolder',
+                                lineHeight: 40
+                            },
+                            c: {
+                                color: 'red',
+                                fontSize: 20,
+                                fontWeight: 'bolder',
+                                lineHeight: 40
+                            }
+                        },
+                        fontSize: 20,
+                        fontWeight: 'bold',
+                        color: '#fff' // 数据颜色
+                    },
+                    labelLine: {
+                        show: false
+                    },
+                    itemStyle: {
+                        color: '#aaa', // 内部圆心背景颜色设置为灰色
+                        borderColor: '#fff222', // 设置边框颜色
+                        borderWidth: 10, // 设置边框宽度
+                    },
+                    data: [
+                        { value: 100, name: 'Total' } // 显示数据总和
+                    ]
+                }
+            ]
+        };
+
+        // 3. 使用配置项设置图表
+        myChart.setOption(option);
+
+        // 4. 监听鼠标悬停事件
+        myChart.on('mouseover', function(params) {
+            if (params.seriesName === 'Hollow Ring') {
+                // 更新内环文本为外环悬停的数据
+                myChart.setOption({
+                    series: [
+                        {
+                            name: 'Inner Circle',
+                            type: 'pie',
+                            data: [{ value: params.value, name: params.name }],
+                            label: {
+                                formatter: function() {
+                                    return '{b|' + params.name + '}\n{a|' + params.value + '}';
+                                }
+                            }
+                        }
+                    ],
+                    animation: false // 禁用动画
+                });
+            }
+        });
+
+        // 5. 监听鼠标移出事件，恢复原始文本
+        myChart.on('mouseout', function(params) {
+            if (params.seriesName === 'Hollow Ring') {
+                // 恢复为初始状态
+                myChart.setOption({
+                    series: [
+                        {
+                            name: 'Inner Circle',
+                            type: 'pie',
+                            data: [{ value: 100, name: 'Total' }],
+                            label: {
+                                formatter: function() {
+                                  return '{c|Total}\n{b|' + params.value + '}';
+                                }
+                            }
+                        }
+                    ],
+                    animation: false // 禁用动画
+                });
+            }
+        });
+    </script>
+</body>
+</html>

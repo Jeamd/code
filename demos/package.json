@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ffmpeg.js": "^4.2.9003"
+    "ffmpeg.js": "^4.2.9003",
+    "sharp": "^0.33.4",
+    "tesseract.js": "^5.1.0"
   }
 }

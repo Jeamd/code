@@ -20,28 +20,30 @@
  * 接收 一个 head 和 left 和 right 返回反转后的头节点
  */
 var reverseBetween = function (head, left, right) {
-  // right后的头节点
-  let tempEndHead = null;
-  // 接收一个head，返回以head开始的反转链表的头节点，同时在末尾加上end后的节点
-  const reverseListEnd = (head, end) => {
-    if (end === 1 || !head || !head.next) {
-      tempEndHead = head?.next || null;
-      return head;
+  let nRightNode = null;
+  const reverseN = (node, n) => {
+    // 接收一个头节点 和 n 返回 反转后的 头节点
+
+    if (n === 1) {
+      nRightNode = node.next;
+      return node;
     }
 
-    const list = reverseListEnd(head.next, end - 1);
-    head.next.next = head;
-    head.next = tempEndHead;
+    const reverseHead = reverseN(node.next, n - 1);
+    node.next.next = node;
+    node.next = nRightNode;
 
-    return list;
+    return reverseHead;
   };
 
   if (left === 1) {
-    return reverseListEnd(head, right);
+    return reverseN(head, right);
   }
 
-  const list = reverseBetween(head.next, left - 1, right - 1);
-  head.next = list;
+  const reverseHead = reverseBetween(head.next, left - 1, right - 1);
+
+  head.next = reverseHead;
+
   return head;
 };
 // @lc code=end
