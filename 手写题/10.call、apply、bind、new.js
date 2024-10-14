@@ -1,44 +1,57 @@
-// call
-// 多个参数 改变this指向
+/**
+ * call
+ * func.call(obj, arg1, arg2,....)
+ */
 
-Function.prototype.call2 = function (content, ...args) {
-  content.fn = this;
+Function.prototype.myCall = function (obj, ...args) {
+  const ctx = obj || window;
 
-  const res = content.fn(...args);
+  ctx.fn = this;
 
-  delete content.fn;
+  const result = ctx.fn(...args);
+  delete ctx.fn;
 
-  return res;
+  return result;
 };
 
-// apply
-Function.prototype.apply2 = function (content, args) {
-  content.fn = this;
+Function.prototype.myApply = function (obj, args) {
+  const ctx = obj || window;
 
-  const res = content.fn(...args);
-  delete content.fn;
+  ctx.fn = this;
 
-  return res;
+  const result = ctx.fn(...args);
+  delete ctx.fn;
+
+  return result;
 };
 
-// bind
-Function.prototype.bind2 = function (content, ...args) {
-  const fn = this;
+Function.prototype.myBind = function (obj, ...preArg) {
+  const execu = this;
 
-  return function (...args2) {
-    return fn.call(content, ...args, ...args2);
+  const bindFun = function (...arg) {
+    let ctx = obj;
+
+    if (this instanceof bindFun) {
+      // 把 bindFunc 当作构造函数使用了 这时this绑定new 出来的实例
+      ctx = this;
+    }
+
+    return execu.myCall(ctx, ...preArg, arg);
   };
+
+  bindFun.prototype = new fNOP();
+
+  return bindFun;
 };
 
-// new
-function new2(fn, ...args) {
-  const obj = {};
+function myNew() {
+  const constructor = [].shift.myCall(arguments);
 
-  obj.__proto__ = fn.prototype;
+  const obj = new Object();
 
-  obj.fn = fn;
+  obj.__proto__ = constructor.prototype;
 
-  const res = obj.fn(...args);
+  const ret = constructor.myApply(obj, arguments);
 
-  return typeof res === "object" ? res : obj;
+  return typeof ret === "object" ? ret : obj;
 }
